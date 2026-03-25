@@ -1,11 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Members</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Team Members</title>
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+   <header class="team-header">
+      <div class="team-container header-wrapper">
+         <div class="logo">
+            <img src="images/icon.png" alt="logo" class="logo-icon">
+            <a href="#home">The Editorial</a>
+         </div>
+
+         <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#team" style="color: #1A1C1E; font-weight: 600;">Team</a></li>
+            <li><a href="#insights">Insights</a></li>
+         </ul>
+         <button class="btn"><a href="#contact">Contact Us</a></button>
+           <button class="hamburger" aria-label="Menu">
+               <i class="fas fa-bars"></i>
+            </button>
+      </div>
+   </header>
+
+   <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+         <div class="team-container hero-content">
+            <div class="hero-text">
+               <h1>The Architects of <span>Narrative</span></h1>
+               <p>We are a collective of strategists, writers, and visual storytellers dedicated to defining the quiet
+                  authority of modern professional brands.</p>
+            </div>
+         </div>
+      </section>
+
+      <!-- Team Section -->
+      <section id="team" class="teams">
+         <div class="team-container">
+            <div class="teams-grid">
+               <!-- card 1 -->
+               <div class="team-card">
+                  <img src="images/team/team1.avif">
+                  <div class="info">
+                     <h3>ELEANOR VANCE</h3>
+                     <p class="team-title">Managing Director</p>
+                     <p class="team-bio">Eleanor leads with a vision for strategic clarity, bringing two decades of
+                        editorial excellence to every client partnership.</p>
+                  </div>
+              <div class="social-icons">
+                     <i class="fa-brands fa-instagram social-icon"></i>
+                     <i class="fa-brands fa-linkedin-in social-icon"></i>
+                     <i class="fa-brands fa-twitter social-icon"></i>
+                  </div>
+               </div>
+               <!-- card 2 -->
+               <div class="team-card">
+                  <img src="images/team/team2.avif">
+                  <div class="info">
+                     <h3>Julian Thorne</h3>
+                     <p class="team-title">CREATIVE LEAD</p>
+                     <p class="team-bio">Julian translates complex brand identities into breathtaking visual languages
+                        that command attention through sophisticated restraint.</p>
+                  </div>
+                 <div class="social-icons">
+                     <i class="fa-brands fa-instagram social-icon"></i>
+                     <i class="fa-brands fa-linkedin-in social-icon"></i>
+                     <i class="fa-brands fa-twitter social-icon"></i>
+                  </div>
+               </div>
+               <!-- card 3 -->
+               <div class="team-card">
+                  <img src="images/team/team3.avif">
+                  <div class="info">
+                     <h3>Maya Sterling</h3>
+                     <p class="team-title">SENIOR EDITOR</p>
+                     <p class="team-bio">Maya curates the editorial voice, ensuring that every word reflects the brand’s
+                        authority and nuanced positioning in the market.</p>
+                  </div>
+                  <div class="social-icons">
+                     <i class="fa-brands fa-instagram social-icon"></i>
+                     <i class="fa-brands fa-linkedin-in social-icon"></i>
+                     <i class="fa-brands fa-twitter social-icon"></i>
+                  </div>
+               </div>
+               <!-- card 4 -->
+               <div class="team-card">
+                  <img src="images/team/team4.avif">
+                  <div class="info">
+                     <h3>Marcus Chen</h3>
+                     <p class="team-title">BRAND STRATEGIST</p>
+                     <p class="team-bio">Marcus decodes market trends to build enduring brand architectures that bridge
+                        the gap between present needs and future aspirations.</p>
+                  </div>
+                  <div class="social-icons">
+                     <i class="fa-brands fa-instagram social-icon"></i>
+                     <i class="fa-brands fa-linkedin-in social-icon"></i>
+                     <i class="fa-brands fa-twitter social-icon"></i>
+                  </div>
+               </div>
+               <!-- card 5 -->
+               <div class="team-card">
+                  <img src="images/team/team5.avif">
+                  <div class="info">
+                     <h3>Sasha Kroll</h3>
+                     <p class="team-title">CONTENT DESIGNER</p>
+                     <p class="team-bio">Sasha focuses on the intersection of typography and space, crafting reading
+                        experiences that are as beautiful as they are functional.</p>
+                  </div>
+                 <div class="social-icons">
+                     <i class="fa-brands fa-instagram social-icon"></i>
+                     <i class="fa-brands fa-linkedin-in social-icon"></i>
+                     <i class="fa-brands fa-twitter social-icon"></i>
+                  </div>
+               </div>
+               <!-- card 6 -->
+               <div class="team-card">
+                  <img src="images/team/team7.webp">
+                  <div class="info">
+                     <h3>David Vance</h3>
+                     <p class="team-title">TECHNICAL DIRECTOR</p>
+                     <p class="team-bio">David ensures that the digital delivery of our narratives is seamless, secure,
+                        and optimized for a global high-end audience.</p>
+                  </div>
+                  <div class="social-icons">
+                     <i class="fa-brands fa-instagram social-icon"></i>
+                     <i class="fa-brands fa-linkedin-in social-icon"></i>
+                     <i class="fa-brands fa-twitter social-icon"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="team-contact">
+         <div class="team-container">
+            <div class="team-wrap">
+               <div class="team-left">
+                  <h1>Want to join the collective?</h1>
+                  <p>We are always looking for visionary creators and analytical minds who share our passion for the
+                     editorial aesthetic.</p>
+               </div>
+               <div class="team-right">
+                  <i class="fa-solid fa-envelope icon"></i>
+                  <p>Drop us a line</p>
+                  <a href="#">hello@theeditorial.com</a>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!-- Footer Section -->
+   <footer>
+      <div class="team-container footer-content">
+         <h3>The Editorial</h3>
+         <p>&copy; 2026 The Editorial Professional. All rights reserved.</p>
+         <div class="social-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Careers</a>
+            <a href="#">Press Kit </a>
+         </div>
+      </div>
+   </footer>
+   <script src="script.js"></script>
 </body>
+
 </html>
